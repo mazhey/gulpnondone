@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Login</title>
+<link
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"
+	integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ=="
+	crossorigin="anonymous" rel="stylesheet">
+<!-- Optional theme -->
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css"
+	integrity="sha384-aUGj/X2zp5rLCbBxumKTCw2Z50WgIr1vs/PFN4praOTvYXWlVyh2UtNUU0KAUhAX"
+	crossorigin="anonymous">
+</head>
+<body>
+<div class="container">
+<nav class="navbar navbar-default">
+      <div class="container">
+	<div class="container">
+		<div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Gulp!</a>
+        </div>
+
+      </div>
+      </div>
+    </nav>
+    </br >
+
+
+<form action ="login?action=login"  method="post">
+<div class="panel panel-default">
+
+  <div class="panel-body">
+   <label for="exampleInputEmail1">Existing User?</label></br >
+  <div class="form-group">
+    <label for="exampleInputEmail1">Username</label>
+    <input type="name" class="form-control" name="username" id="exampleInputUser1" placeholder="Username">
+  </div>
+    <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" name="password" id="exampleInputPassword1" placeholder="Password">
+  </div>
+ 
+  <button  type="submit" class="btn btn-info">Login</button>
+</div>
+</div>
+</form>
+<form action ="login?action=register"  method="post">
+<div class="panel panel-default">
+ <div class="panel-body">
+   <label for="exampleInputEmail1">New User?</label></br >
+  <button type="submit" class="btn btn-info"  name="register">Register</button>
+</div>
+</div>
+</form>
+	</div>
+	
+	
+
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script
+		src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script
+		src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"
+		integrity="sha512-K1qjQ+NcF2TYO/eI3M6v8EiNYZfA95pQumfvcVrTHtwQVDG+aHRqLi/ETn2uB+1JqwYqVG3LIvdm9lj6imS/pQ=="
+		crossorigin="anonymous"></script>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
